@@ -1,0 +1,182 @@
+@charset "EUC-KR";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	background:#ffffff;
+	background-size: cover;
+
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+	width: 800px;
+	text-align: center;
+	
+}
+
+.login-form {
+	position: relative;
+	box-sizing: border-box;
+	padding: 50px 10px;
+	transition: .5s;
+	
+}
+.login-form:hover {
+	background: rgba(255,255,255,.1);
+	box-shadow: 0 0 20px 10px rgba(102,186,255,0.4);
+}
+.login-form h1 {
+	margin: 0 0 20px;
+	color: gray;
+	font-size: 30px;
+	font-weight: bold;	
+}
+
+.login-form input{
+	display: block;
+	width: 100%;
+	border-radius:25px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: black;
+	text-transform: uppercase;
+	border: none;
+	background: rgba(13,162,213, .1);
+}
+.login-form input[type="text"]{
+	text-transform: none;
+}
+.login-form input[type="password"]{
+	text-transform: none;
+}
+
+.login-form input[type="submit"]{
+	background: #fab1a0;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	color: gray;
+	font-weight: bold;		
+}
+
+.login-form input[type="submit"]:hover{
+	background: #45aaf2;
+}
+
+.login-form input[type="button1"]
+{
+background: #fab1a0;
+	font-size: 16px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	color: gray;
+	font-weight: bold;	
+	
+}
+
+.login-form input[type="button2"]
+{
+    background: #fab1a0;
+    width: 100px;
+	font-size: 15px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	color: gray;
+	font-weight: bold;
+	margin-top: 3px;
+	
+}
+
+.login-form  input[type="button1"]:hover{
+	background: #45aaf2;
+}
+
+
+.login-form a{
+	text-decoration: none;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.login-form textarea 
+{
+	width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  text-align: left;
+  margin-top: 6px;
+  font-size: 18px;
+  background: rgba(13,162,213, .1);
+  text-transform : translate(-50%, -50%);
+  font-family: "Montserrat",sans-serif;
+}
+
+.login-form table{
+	display: block;
+	border: none;
+	background: rgba(13,162,213, .1);
+}
+
+.login-form td
+{
+	
+	width: 550px;
+	margin: 0 0 10px;
+	color: gray;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+.login-form #td1
+{
+	
+	width: 100px;
+	margin: 0 0 10px;
+	color: gray;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+
+.login-form tr
+{
+	display: block;
+	width: 200%;
+	margin: 0 0 30px;
+	text-align: left;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.clouds 
+{
+	background: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+}
+
